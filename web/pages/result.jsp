@@ -14,14 +14,14 @@
 
 <header>
     <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
+        <div class="collapse show" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
                 <h5 class="text-white h4">Rogachev Kirill Olegovich - P3230<br>Negrash Andrey Vladimirovich - P3230</h5>
                 <span class="text-muted">Variant 2635</span>
             </div>
         </div>
         <nav class="navbar navbar-dark bg-dark d-flex justify-content-center">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </nav>
@@ -32,7 +32,7 @@
     ${Content}
 </div>
 
-<div id="table-panel">
+<div id="table-panel" style="padding: 5%">
     <div id="result" class="custom_scrollbar">
         <table class="page-table-T" border="1">
             <thead class="header" id="headerTable">
@@ -61,9 +61,12 @@
     <center>
     <div class="page-table-T">
         <a href="/Lab2" class="btn btn-block btn-dark" id="footer-form">Form</a>
-        <a class="btn btn-block btn-light" href="https://github.com/selbstbeherrschung/web-lab-1">GitHub</a>
     </div>
     </center>
+</div>
+
+<div class="footer d-flex justify-content-end">
+    <a class="btn btn-dark rounded-pill" href="https://github.com/selbstbeherrschung/web-lab-1"><img src="https://nav-com.ru/img/git.png" width="50px" alt="GitHub"></a>
 </div>
 
 </body>

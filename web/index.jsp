@@ -19,21 +19,21 @@
 
 <header>
     <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
+        <div class="collapse show" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
                 <h5 class="text-white h4">Rogachev Kirill Olegovich - P3230<br>Negrash Andrey Vladimirovich - P3230</h5>
                 <span class="text-muted">Variant 2635</span>
             </div>
         </div>
         <nav class="navbar navbar-dark bg-dark d-flex justify-content-center">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </nav>
     </div>
 </header>
 
-<div>
+<div style="padding:5%">
     <form method="post" onsubmit="checkText(this);" action="/Lab2/control">
         <table id="page-table-F">
             <tr>
@@ -122,13 +122,11 @@
                     <input id="vX" type="hidden" name="answerX" value="0">
                 </td>
             </tr>
-            <tr>
-                <td colspan="14">
-                    <a class="btn btn-block btn-light" href="https://github.com/selbstbeherrschung/web-lab-1">GitHub</a>
-                </td>
-            </tr>
         </table>
     </form>
+</div>
+<div class="footer d-flex justify-content-end">
+        <a class="btn btn-dark rounded-pill" href="https://github.com/selbstbeherrschung/web-lab-1"><img src="https://nav-com.ru/img/git.png" width="50px" alt="GitHub"></a>
 </div>
 
 </body>
